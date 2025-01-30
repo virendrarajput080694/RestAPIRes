@@ -28,7 +28,7 @@ public class StepDefination extends Utility {
 	
 	@Given("Add place payload with {string} {string} {string}")
 	public void add_place_payload_with(String name, String language, String address) throws IOException {
-		
+		//comment added for auto trigger job from jenkins
 		reqSpec = given().spec(requestSpecification())
 		.body(data.addplacePayload(name,language,address));
 	}
