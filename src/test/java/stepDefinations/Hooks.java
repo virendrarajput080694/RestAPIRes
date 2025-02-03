@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 	
-	
+	//comment added for job
 	@Before("@DeletePlace")
 	public void beforeScenario() throws IOException
 	{
