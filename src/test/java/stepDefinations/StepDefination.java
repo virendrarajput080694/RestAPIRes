@@ -19,7 +19,7 @@ import resources.TestDataBuild;
 import resources.Utility;
 
 public class StepDefination extends Utility {
-	//comment added.
+	//comment added for auto job run.
 	ResponseSpecification respec;
 	RequestSpecification reqSpec;
 	Response response;
